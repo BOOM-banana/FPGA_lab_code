@@ -1,0 +1,22 @@
+
+{
+  "signal": [
+    ["Inputs",
+      {"name": "A",    "wave": "0...1..."},
+      {"name": "B",    "wave": "0.1.0.1."},
+      {"name": "Cin",  "wave": "01010101"}
+    ],
+    {},
+    ["Outputs",
+      {"name": "S",    "wave": "01.010.1"},
+      {"name": "Cout", "wave": "0..101.."}
+    ]
+  ],
+  "head": {
+    "text": "Expected Waveforms of a 1-bit Full Adder",
+    "tick": 0
+  },
+  "config": {
+    "hscale": 2
+  }
+}
